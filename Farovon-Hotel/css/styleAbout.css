@@ -1,0 +1,81 @@
+
+*{
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #03080a;
+}
+.container-fluid .navbar {
+    z-index: 999;
+}
+.container-fluid nav{
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar a{
+    margin:0 20px!important;
+}
+.container-fluid .nav{
+    background: rgba(0,0,0,0.1);
+    transition: 0.5s all;
+}
+.container-fluid .nav a{
+    color: #fff !important;
+}
+
+.container-fluid nav:hover{
+    background: rgba(0,0,0,1);
+}
+.container-fluid .nav a:hover{
+    color: red !important;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.dropdown-menu {
+    background: #000 !important;
+    color: #fff !important;
+}
+.dropdown-item:hover{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #007bff !important;
+}
+
+.nav-item dropdown a:active .dropdown-item{
+    margin: 0!important;
+    padding: 0!important;
+    color: black!important;
+}
+
+
+
+                             /*About qismi*/
+
+.row .card{
+    margin: 30px!important;
+    transition: 0.3s all;
+ 
+}
+
+span {
+    color: red;
+    font-size: 15px;
+}
+h4,p{
+    padding: 20px!important;
+    text-align: center;
+}
+
+.row .card:hover{
+    transform: translateY(-30px) scale(1.2);
+}

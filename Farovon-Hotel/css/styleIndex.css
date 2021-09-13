@@ -1,0 +1,189 @@
+*{
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #03080a;
+}
+
+         
+                           /*index qismi*/
+
+
+.container-fluid .navbar {
+    z-index: 999;
+}
+.showcase1{
+ width: 100%;
+height: 700px ;
+}
+.showcase1 img{
+  width: 100%;
+    height: 100%;
+    margin: 0 auto!important;
+    position: relative;
+    top: -70px;
+    z-index: -1;   
+}
+.container-fluid nav{
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar a{
+    margin:0 20px!important;
+}
+.container-fluid .nav{
+    background: rgba(0,0,0,0.1);
+    transition: 0.5s all;
+}
+.container-fluid .nav a{
+    color: #fff !important;
+}
+.container-fluid nav:hover{
+    background: rgba(0,0,0,1);
+}
+.container-fluid .nav a:hover{
+    color: #00A2E2 !important;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.dropdown-menu {
+    background: #000 !important;
+    color: #fff !important;
+}
+.dropdown-item:hover{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #007bff !important;
+}
+.nav-item dropdown a:active .dropdown-item{
+    margin: 0!important;
+    padding: 0!important;
+    color: black!important;
+    height: 60px!important; 
+}
+
+
+
+                                /*  Carusel*/
+
+
+#carouselExampleIndicators{
+width: 100%;
+height: 700px;
+}
+#carouselExampleIndicators .d-block{
+    width: 100%;
+    height: 700px !important;
+}
+.carousel-control-prev{
+    background: rgba(0,0,0,0.3);
+    transition: all 0.3s;
+    color: red;
+}
+.carousel-control-prev:hover{
+    background: rgba(0,0,0,0.5);
+}
+.carousel-control-next{
+    background: rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+.carousel-control-next:hover{
+    background: rgba(0,0,0,0.5);
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px!important;
+    background: rgba(0,0,0,0.4);
+}
+.carousel-indicators .active{
+    background: rgba(0,0,0,0.8);
+}
+.carousel-inner .carousel-item active .d-block{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+                             /*aylanib turadigan rasimlar*/
+
+
+.Maxamadraximov .box{
+    margin:180px 5% !important;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+      100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.Maxamadraximov .box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+}
+.Maxamadraximov .box span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+                                    /*360 degree farovon*/
+.farovon360{
+    position: relative;
+    width: 90%;
+    margin: 0 auto !important;
+    height: 600px;
+}
+.farovon360 iframe{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+                                      /*Footer qismi*/
+#salom{
+    margin-top: 70px !important;
+}
+.container-fluid .producing{
+    background: #03080a; 
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    color: #2894ff;
+    text-align: center;
+    justify-content: center;
+}
+.container-fluid .producing a .fa{
+    margin: 20px!important;
+}
